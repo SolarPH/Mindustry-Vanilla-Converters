@@ -1,0 +1,27 @@
+type: GenericSmelter
+flameColor: FFFFFF
+name: Bottle Maker
+description: Creates bottles for liquid containment.
+liquidCapacity: 0
+outputItem: bottle/1
+size: 1
+hasPower: true
+hasLiquids: false
+craftTime: 60
+updateEffect: fire
+consumes: {
+  power: 1
+  items: {
+	items: [
+		metaglass/6
+	]
+  }
+}
+requirements: [
+	copper/6
+	graphite/6
+	silicon/6
+	metaglass/12
+]
+category: crafting
+research: research-base

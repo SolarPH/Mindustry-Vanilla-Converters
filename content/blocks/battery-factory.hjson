@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: Battery Factory
+description: Creates portable batteries for power containment.
+liquidCapacity: 0
+itemCapacity: 40
+outputItem: battery/1
+size: 1
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 60
+updateEffect: generate
+consumes: {
+	power: {
+		usage: 2
+		capacity: 2
+	}
+	items: {
+		items: [
+			copper/2
+			lead/10
+			silicon/20
+		]
+	}
+}
+requirements: [
+	copper/6
+	graphite/6
+	silicon/6
+	metaglass/12
+]
+category: crafting
+research: research-base

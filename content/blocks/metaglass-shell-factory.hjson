@@ -1,0 +1,29 @@
+type: GenericSmelter
+flameColor: FFFFFF
+name: Metaglass Shell Factory
+description: Creates metaglass shells for safe containment of explosive and flammable items.
+liquidCapacity: 0
+itemCapacity: 24
+outputItem: metaglass-shell/1
+size: 1
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 60
+updateEffect: fire
+consumes: {
+  power: 1
+  items: {
+	items: [
+		metaglass/12
+	]
+  }
+}
+requirements: [
+	copper/6
+	graphite/6
+	silicon/6
+	metaglass/12
+]
+category: crafting
+research: research-base

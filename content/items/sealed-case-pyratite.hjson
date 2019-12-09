@@ -1,0 +1,13 @@
+name: Sealed Pyratite
+description: A pack of 10 pyratite sealed inside a metaglass container. Can enter the core. Highly flammable, handle with care.
+
+// item properties
+
+color: FFAA5F
+type: material
+explosiveness: 4
+flammability: 14
+radioactitity: 0
+hardness: 0
+cost: 1
+alwaysUnlocked: false

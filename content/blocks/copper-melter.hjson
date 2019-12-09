@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: Copper Melter
+description: Melts excess copper for slag.
+liquidCapacity: 50
+outputLiquid: slag/1
+size: 1
+hasPower: true
+hasLiquids: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+	power: 1
+	items: {
+		items: [
+			copper/1
+		]
+	}
+}
+requirements: [
+	lead/10
+	graphite/10
+	titanium/10
+]
+category: crafting
+research: research-base

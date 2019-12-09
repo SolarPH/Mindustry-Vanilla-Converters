@@ -1,0 +1,11 @@
+name: "Base Research: Vanilla+"
+description: For a special campaign map.
+
+type: ItemVoid
+
+requirements: [
+	
+]
+
+research: core-shard
+buildVisibility: lightingOnly

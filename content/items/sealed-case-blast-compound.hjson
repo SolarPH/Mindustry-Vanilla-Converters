@@ -1,0 +1,13 @@
+name: Sealed Blast Compound
+description: A pack of 10 blast compounds sealed inside a metaglass container. Can enter the core. Highly explosive, handle with care.
+
+// item properties
+
+color: FF795E
+type: material
+explosiveness: 12
+flammability: 4
+radioactitity: 0
+hardness: 0
+cost: 1
+alwaysUnlocked: false

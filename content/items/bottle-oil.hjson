@@ -1,0 +1,13 @@
+name: Bottle of Oil
+description: A bottle that contains 60 units of oil.
+
+// item properties
+
+color: 313131
+type: material
+explosiveness: 72
+flammability: 72
+radioactitity: 0
+hardness: 0
+cost: 1
+alwaysUnlocked: false

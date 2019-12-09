@@ -1,0 +1,35 @@
+type: SingleTypeGenerator
+name: Battery Discharger
+description: Discharges batteries to give out power to the power grid.
+itemCapacity: 10
+liquidCapacity: 0
+size: 1
+hasPower: true
+hasLiquids: false
+hasItems: true
+
+consumes: {
+	items: {
+		items: [
+			battery/1
+		]
+	}
+}
+minItemEfficiency: 0
+itemDuration: 60
+minLiquidEfficiency: 0
+maxLiquidGenerate: 0
+generateEffect: generatespark
+explodeEffect: generatespark
+randomlyExplode: false
+powerProduction: 2
+
+requirements: [
+	copper/12
+	lead/2
+	graphite/12
+	silicon/12
+]
+
+category: power
+research: battery-factory

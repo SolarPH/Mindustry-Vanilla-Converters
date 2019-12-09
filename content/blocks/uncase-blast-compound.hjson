@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Blast Compound Unpacker
+description: Unpacks 10 units of Blast Compound from metaglass containers.
+liquidCapacity: 0
+itemCapacity: 20
+outputItem: blast-compound/10
+size: 1
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 60
+updateEffect: none
+consumes: {
+  items: {
+	items: [
+		sealed-case-blast-compound/1
+	]
+  }
+}
+requirements: [
+	copper/6
+	graphite/6
+	silicon/6
+	metaglass/12
+]
+category: crafting
+research: case-blast-compound

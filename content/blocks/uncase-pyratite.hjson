@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Pyratite Unpacker
+description: Unpacks 10 units of Pyratite from metaglass containers.
+liquidCapacity: 0
+itemCapacity: 20
+outputItem: pyratite/10
+size: 1
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 60
+updateEffect: none
+consumes: {
+  items: {
+	items: [
+		sealed-case-pyratite/1
+	]
+  }
+}
+requirements: [
+	copper/6
+	graphite/6
+	silicon/6
+	metaglass/12
+]
+category: crafting
+research: case-pyratite

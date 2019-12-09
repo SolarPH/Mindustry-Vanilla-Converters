@@ -1,0 +1,13 @@
+name: Empty Bottle
+description: A bottle that can store liquid.
+
+// item properties
+
+color: FFFFFF
+type: resource
+explosiveness: 0
+flammability: 0
+radioactitity: 0
+hardness: 0
+cost: 1
+alwaysUnlocked: false

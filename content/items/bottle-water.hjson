@@ -1,0 +1,13 @@
+name: Bottle of Water
+description: A bottle that contains 60 units of water.
+
+// item properties
+
+color: 596AB8
+type: material
+explosiveness: 0
+flammability: 0
+radioactitity: 0
+hardness: 0
+cost: 1
+alwaysUnlocked: false

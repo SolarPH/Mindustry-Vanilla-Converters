@@ -1,0 +1,13 @@
+name: Metaglass Shell
+description: A shell used for explosive and flammable item containment
+
+// item properties
+
+color: FFFFFF
+type: resource
+explosiveness: 0
+flammability: 0
+radioactitity: 0
+hardness: 0
+cost: 1
+alwaysUnlocked: false

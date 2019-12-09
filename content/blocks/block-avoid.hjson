@@ -1,0 +1,49 @@
+type: NuclearReactor
+name: "[red]BLOCK TO AVOID"
+description: "[red]DO NOT DROP A COPPER HERE!"
+itemCapacity: 1
+liquidCapacity: 0
+size: 1
+hasPower: false
+hasLiquids: false
+hasItems: true
+
+lightColor: 000000
+coolColor: 00000000
+hotColor: 00000000
+itemDuration: 1
+heating: 2
+explosionRadius: 40
+explosionDamage: 8191
+
+consumes: {
+	items: {
+		items: [
+			copper/1
+		]
+	}
+	liquid: {
+		liquid: water
+		amount: 0
+	}
+}
+minItemEfficiency: 0
+itemDuration: 60
+minLiquidEfficiency: 0
+maxLiquidGenerate: 0
+generateEffect: generatespark
+explodeEffect: generatespark
+randomlyExplode: false
+powerProduction: 2
+
+health: 1
+
+requirements: [
+	copper/12
+	lead/2
+	graphite/12
+	silicon/12
+]
+
+category: power
+research: battery-factory
